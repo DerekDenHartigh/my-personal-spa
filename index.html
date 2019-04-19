@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Site</title>
+</head>
+<body>
+
+    <header>
+        <!--Static header goes here-->
+        <nav id="header">
+            <ul>
+                <li><a href="#!/home">Home</a></li>
+                <li><a href="#!/about-me">About Me</a></li>
+                <li><a href="#!/portfolio">Portfolio</a></li>
+                <li><a href="#!/Resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main ng-view>
+        <home></home>
+    </main>
+
+    <footer>
+        <!--Static footer goes here-->
+        <nav id="footer">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/derek-denhartigh/"><img src="./assets/Linkedin-logo-1-550x550-300x300.png"/>LinkedIn</a></li>
+                <!--http://cofarming.info/wp-content/uploads/2017/01/Linkedin-logo-1-550x550-300x300.png-->
+                <li><a href="https://github.com/DerekDenHartigh"><img src="./assets/github.svg"/>GitHub</a></li>
+                <!--https://image.flaticon.com/icons/svg/25/25231.svg-->
+
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+    <script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
+    <script src="app.module.js"></script>
+    <script src="my-site-service.js"></script>
+    <script src="components/about-me.js"></script>
+    <script src="components/portfolio.js"></script>
+    <script src="components/home.js"></script>
+    <script src="components/resume.js"></script>
+    <script src="app.config.js"></script>
+</body>
+</html>
