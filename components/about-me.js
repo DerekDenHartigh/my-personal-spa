@@ -10,7 +10,7 @@ angular
 .module('MySiteApp')  
 .component('aboutMe', {
     template: `
-    <h1>About Me<h1>
+    <h1>About Me</h1>
     `,
     controller: aboutMeController
 });

@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module("MySiteApp")
-.config(["$routeProvider", ($routeProvide) => {
+.config(["$routeProvider", ($routeProvider) => {
     $routeProvider
     .when("/about-me", {
         template: "<about-me></about-me>"
@@ -11,6 +11,9 @@ angular.module("MySiteApp")
     })
     .when("/portfolio", {
         template: "<portfolio></portfolio>"
+    })
+    .when("/home", {
+        template: "<home></home>"
     })
     .otherwise({
         redirectTo: "/home"

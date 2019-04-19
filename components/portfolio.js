@@ -10,7 +10,7 @@ angular
 .module('MySiteApp')  
 .component('portfolio', {
     template: `
-    <h1>Portfolio<h1>
+    <h1>Portfolio</h1>
     `,
     controller: portfolioController
 });

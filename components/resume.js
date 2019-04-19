@@ -10,7 +10,7 @@ angular
 .module('MySiteApp')  
 .component('resume', {
     template: `
-    <h1>Resume<h1>
+    <h1>Resume</h1>
     `,
     controller: resumeController
 });

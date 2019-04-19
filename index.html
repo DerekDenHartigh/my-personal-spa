@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="MySiteApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
                 <li><a href="#!/home">Home</a></li>
                 <li><a href="#!/about-me">About Me</a></li>
                 <li><a href="#!/portfolio">Portfolio</a></li>
-                <li><a href="#!/Resume">Resume</a></li>
+                <li><a href="#!/resume">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -42,10 +42,10 @@
     <script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
     <script src="app.module.js"></script>
     <script src="my-site-service.js"></script>
+    <script src="app.config.js"></script>
     <script src="components/about-me.js"></script>
     <script src="components/portfolio.js"></script>
     <script src="components/home.js"></script>
     <script src="components/resume.js"></script>
-    <script src="app.config.js"></script>
 </body>
 </html>
